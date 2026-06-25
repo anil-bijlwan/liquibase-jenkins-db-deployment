@@ -8,15 +8,13 @@ End-to-end CI/CD automation for **Oracle database changes** in a regulated banki
 
 ## 🔗 Live diagrams
 
-> Replace `<you>` with your GitHub username and `<repo>` with your repository name. These links work once GitHub Pages is enabled (**Settings → Pages → Source: GitHub Actions**).
-
 - **[Deployment topology](https://anil-bijlwan.github.io/liquibase-jenkins-db-deployment/db-deployment-topology.html)** — full end-to-end architecture
 - **[Jenkins pipeline workflow](https://anil-bijlwan.github.io/liquibase-jenkins-db-deployment/jenkins-pipeline-workflow.html)** — single-pipeline Blue Ocean view
 
 No Pages yet? Render instantly via htmlpreview (no setup):
 
 ```
-https://htmlpreview.github.io/?https://github.com/<you>/<repo>/blob/main/export/db-deployment-topology.html
+https://htmlpreview.github.io/?https://github.com/anil-bijlwan/liquibase-jenkins-db-deployment/blob/main/db-deployment-topology.html
 ```
 
 ---
@@ -73,13 +71,13 @@ https://htmlpreview.github.io/?https://github.com/<you>/<repo>/blob/main/export/
 
 | File | What it is |
 |------|-----------|
-| `export/db-deployment-topology.html` | Full architecture / deployment topology diagram (standalone) |
-| `export/jenkins-pipeline-workflow.html` | Blue Ocean–style single-pipeline workflow (standalone) |
-| `export/*.pptx` | Slide versions of each diagram |
+| `/db-deployment-topology.html` | Full architecture / deployment topology diagram (standalone) |
+| `/jenkins-pipeline-workflow.html` | Blue Ocean–style single-pipeline workflow (standalone) |
+| `/*.pptx` | Slide versions of each diagram |
 | `*.dc.html` | Editable source of each diagram |
 
 ### Viewing the diagrams
-Open any file in `export/` directly in a browser, or use the **Live diagrams** links at the top once GitHub Pages is enabled.
+Open any file in `main` directly in a browser, or use the **Live diagrams** links at the top once GitHub Pages is enabled.
 
 ---
 
