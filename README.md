@@ -10,8 +10,8 @@ End-to-end CI/CD automation for **Oracle database changes** in a regulated banki
 
 > Replace `<you>` with your GitHub username and `<repo>` with your repository name. These links work once GitHub Pages is enabled (**Settings → Pages → Source: GitHub Actions**).
 
-- **[Deployment topology](https://<you>.github.io/<repo>/export/db-deployment-topology.html)** — full end-to-end architecture
-- **[Jenkins pipeline workflow](https://<you>.github.io/<repo>/export/jenkins-pipeline-workflow.html)** — single-pipeline Blue Ocean view
+- **[Deployment topology](https://anil-bijlwan.github.io/liquibase-jenkins-db-deployment/db-deployment-topology.html)** — full end-to-end architecture
+- **[Jenkins pipeline workflow](https://anil-bijlwan.github.io/liquibase-jenkins-db-deployment/jenkins-pipeline-workflow.html)** — single-pipeline Blue Ocean view
 
 No Pages yet? Render instantly via htmlpreview (no setup):
 
