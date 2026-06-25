@@ -10,11 +10,6 @@ End-to-end CI/CD automation for **Oracle database changes** in a regulated banki
 - **[Deployment topology](https://anil-bijlwan.github.io/liquibase-jenkins-db-deployment/db-deployment-topology.html)** — full end-to-end architecture
 - **[Jenkins pipeline workflow](https://anil-bijlwan.github.io/liquibase-jenkins-db-deployment/jenkins-pipeline-workflow.html)** — single-pipeline Blue Ocean view
 
-No Pages yet? Render instantly via htmlpreview (no setup):
-
-```
-https://htmlpreview.github.io/?https://github.com/anil-bijlwan/liquibase-jenkins-db-deployment/blob/main/db-deployment-topology.html
-```
 
 ---
 
