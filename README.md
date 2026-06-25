@@ -6,6 +6,21 @@ End-to-end CI/CD automation for **Oracle database changes** in a regulated banki
 
 ---
 
+## 🔗 Live diagrams
+
+> Replace `<you>` with your GitHub username and `<repo>` with your repository name. These links work once GitHub Pages is enabled (**Settings → Pages → Source: GitHub Actions**).
+
+- **[Deployment topology](https://<you>.github.io/<repo>/export/db-deployment-topology.html)** — full end-to-end architecture
+- **[Jenkins pipeline workflow](https://<you>.github.io/<repo>/export/jenkins-pipeline-workflow.html)** — single-pipeline Blue Ocean view
+
+No Pages yet? Render instantly via htmlpreview (no setup):
+
+```
+https://htmlpreview.github.io/?https://github.com/<you>/<repo>/blob/main/export/db-deployment-topology.html
+```
+
+---
+
 ## Why this exists
 
 - **One pipeline, many actions.** Deploy, Create Release RC, Production release, Rollback and Deployment History are all the same Jenkinsfile, chosen at runtime.
@@ -58,13 +73,22 @@ End-to-end CI/CD automation for **Oracle database changes** in a regulated banki
 
 | File | What it is |
 |------|-----------|
-| `export/DB Deployment Topology.html` | Full architecture / deployment topology diagram (standalone) |
-| `export/Jenkins Pipeline Workflow.html` | Blue Ocean–style single-pipeline workflow (standalone) |
+| `export/db-deployment-topology.html` | Full architecture / deployment topology diagram (standalone) |
+| `export/jenkins-pipeline-workflow.html` | Blue Ocean–style single-pipeline workflow (standalone) |
 | `export/*.pptx` | Slide versions of each diagram |
 | `*.dc.html` | Editable source of each diagram |
 
 ### Viewing the diagrams
-Open any file in `export/` directly in a browser, or use the GitHub Pages link once published (see below).
+Open any file in `export/` directly in a browser, or use the **Live diagrams** links at the top once GitHub Pages is enabled.
+
+---
+
+## Publishing to GitHub Pages
+
+1. Push this repo to GitHub (must be **public** for free Pages).
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+3. The included workflow (`.github/workflows/pages.yml`) publishes the repo on every push to `main`.
+4. After the Actions run finishes, your diagrams are live at the URLs in the **Live diagrams** section above.
 
 ---
 
