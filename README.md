@@ -2,7 +2,6 @@
 
 End-to-end CI/CD automation for **Oracle database changes** in a regulated banking environment. A Bitbucket pull-request merge drives Liquibase changesets through DEV → INT → UAT, and a change-managed Production flow deploys inside an isolated, data-resident zone — all from a single Jenkins pipeline selected by an `ACTION` parameter.
 
-> The diagrams in this repo are self-contained HTML files. Open them in any browser — no build step, no internet required.
 
 ---
 
